@@ -1,0 +1,93 @@
+article {
+  border-bottom: 1px solid #89A894;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: #F6FDE8;
+  margin-left: 100px;
+  margin-right: 400px;
+}
+
+h1 {
+  color: #F34213;
+  font-family: "RecifeDisplay-Black", serif;
+  font-size: 80px;
+}
+
+h2 {
+  color: #89A894;
+  cursor: pointer;
+  font-family: "RecifeDisplay-Light", serif;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+h3 {
+  color: #3C6E4E;
+  font-family: "RecifeDisplay-Book", serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+h4 {
+  color: #484F4A;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica",  sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+p {
+  color: #484F4A;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica",  sans-serif;
+}
+
+li {
+  color: #484F4A;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica",  sans-serif;
+  font-size: 16px;
+  padding: 6px;
+  width: 80%;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.divHide {
+  display: none;
+}
+
+.pCredits {
+  font-size: 13px;
+}
+
+#aTop {
+  color: #F34213;
+  font-family: "RecifeDisplay-Book", serif;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#pIntroduction {
+  font-size: 20px;
+  margin-top: -20px;
+  width: 70%;
+}
+
+@font-face {
+  font-family:"RecifeDisplay-Light", serif;
+  src: url(font/RecifeDisplay-Light.ttf);
+}
+
+@font-face {
+  font-family:"RecifeDisplay-Book", serif;
+  src: url(font/RecifeDisplay-Book.ttf);
+}
+
+@font-face {
+  font-family:"RecifeDisplay-Black", serif;
+  src: url(font/RecifeDisplay-Black.ttf);
+}
